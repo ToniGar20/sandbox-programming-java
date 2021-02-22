@@ -15,6 +15,7 @@ public class CompetitionHelper {
         for (int i = 0; i < size; i++) {
             Player player = new Player();
             player.setName(baseName + i);
+            player.setSurname(baseSurname + i);
             if(!baseSurname.equals("")){
                 player.setSurname(baseSurname + i);
             }

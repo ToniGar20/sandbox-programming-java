@@ -17,7 +17,7 @@ public class LeagueTests {
 
     @Test
     void testArrayCollection() {
-        List<Player> data = CompetitionHelper.getRandomPlayers(10,"Pepito ",null);
+        List<Player> data = CompetitionHelper.getRandomPlayers(10,"Pepito ","Flores ");
         for (Player item : data) {
             log.info(data.toString());
         }
